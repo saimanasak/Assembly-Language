@@ -3,9 +3,9 @@ Assembly Language Basics
 Notes
 An assembly program can be divided into three sections-
 
-**1. The data section.
+**1. The data section.**
 
-**2. The bss section.
+**2. The bss section.**
 
 **3. The text section.**
 
@@ -16,12 +16,12 @@ The syntax for declaring data section is -
 
 section.data
 
-**The bss Section
+The **bss Section**
 The bss section is used for declaring variables. The syntax for declaring bss section is-
 
 section.bss
 
-**The text section**
+The **text section**
 The text section is used for keeping the actual code. This section must begin with the declaration global _start, which tells the kernel where the program execution begins.
 
 The syntax for declaring text section is-
