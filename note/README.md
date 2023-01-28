@@ -1,7 +1,7 @@
 # Assembly-Language
 Assembly Language Basics
 Notes
-An assembly program can be divided into three sections-
+An assembly program can be divided into **three sections-**
 
 1. The data section.
 
