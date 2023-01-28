@@ -38,3 +38,12 @@ or, on the same line along with an instruction, like −
 
 add eax, ebx     ; adds ebx to eax
 
+# Compiling and Linking an Assembly Program in NASM
+
+1. Make sure you have set the **NASM** using the above setup commands.−
+2. Type the Assembly code using a text editor and save it as hello.asm.
+3. Make sure that you are in the same directory as where you saved hello.asm.
+4. To assemble the program, type nasm -f elf hello.asm
+5. If there is any error, you will be prompted about that at this stage. Otherwise, an object file of your program named hello.o will be created.
+6. To link the object file and create an executable file named hello, type ld -m elf_i386 -s -o hello hello.o
+7. Execute the program by typing ./hello
