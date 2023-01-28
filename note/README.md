@@ -3,11 +3,11 @@ Assembly Language Basics
 Notes
 An assembly program can be divided into three sections-
 
-The data section,
+1. The data section.
 
-The bss section, and
+2. The bss section.
 
-The text section.
+3. The text section.
 
 The data Section
 The data section is used for declaring initialized data or constants. This data does not change at runtime. You can declare various constant values, file names, or buffer size, etc., in this section.
